@@ -1,0 +1,191 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+
+/*declaração de fontes*/
+@font-face {
+    font-family:'section' ;
+    src: url('./font/Android.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'paragrafos';
+    src: url(./font/Segoe\ UI\ Bold.ttf) format('truetype');
+    font-weight: 24px ;
+    font-style:normal;
+}
+
+/*cabessalho*/
+
+header{
+    background-image:linear-gradient(to top, rgb(11, 97, 30),rgb(51, 255, 0));
+    width:100%;
+    margin:-8px ;
+    padding:10px 20px ;
+}
+
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+    
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.945);
+
+    padding: 10px;
+    margin: 10px;
+    
+    text-decoration: none;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+}
+
+/*corpo,fundo do site*/
+
+body{
+    background-color: #97AC35;
+    
+}
+
+/*conteudo principal*/
+main{
+    
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+#video {
+    background-color: #103824;
+    height: 462px;
+    width: 1033px;
+    text-align: center;
+    padding: 50px;
+    margin: -27px 100px -5px -50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452)}
+#final{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align:justify;
+    padding: 50px;
+    margin: 50px 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452)}
+
+
+section{
+    font-family:'section';
+    font-size: 40px;
+    color: rgb(4, 48, 4);
+    padding: 25px;
+    margin: 5x  2px;
+    text-align: justify;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
+}
+
+article{
+    font-family: 'paragrafos';
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+strong{
+    color: rgb(5, 70, 5);
+    text-decoration:lawngreen;
+}
+
+a{
+    text-decoration:none;
+    text-align: justify;
+}
+
+
+picture{
+    padding-bottom:5px;
+    margin: 5px;
+}
+
+/*class*/
+
+.subtitulo{
+    font-family:'section';
+    font-size: 15px;
+    color:rgb(4, 48, 4);
+    background-color: rgba(4, 48, 4, 0.144);
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.link{
+    color: blue;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+    
+}
+
+/*id*/
+
+#modulo3{
+
+    background-color:#9cf1b48a;
+    border-radius: 10px;
+    height: 331px;
+    width: 1045px;
+    margin: 18px 0px 16px -40px;
+}
+
+
+#modulo3 > article{
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+#modulo3 > h4{
+
+    font-family: 'paragrafos';
+    color: aliceblue;
+    border-radius: 10px 4px 6px 8px;
+    font-size: 25px;
+    height: 50px;
+    width: 851px;
+    background-color:#375740 ;
+    margin: -26px 5px 6px -25px;
+    padding: auto;
+}
+
+#modulo3 > ul{
+        list-style-type: '✔';
+        text-decoration: underline;
+        font-family: 'paragrafos';
+        font-size: 16px;
+        display:inline-block;
+        height: 105px;
+        margin: 5px;
+        
+}
+
+
+
+     
+
